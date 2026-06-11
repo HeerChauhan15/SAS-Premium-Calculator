@@ -31,10 +31,6 @@ if st.button("Calculate"):
 
     st.success("Calculation Completed")
 
-    st.write("### Details Entered")
-    st.write("Age:", age)
-    st.write("Loan Amount:", format_inr(loan_amount))
-    st.write("Sum Assured:", format_inr(sum_assured))
 
     st.write("### Premium Result")
     st.write("Premium (Ex GST):", format_inr(ex))
