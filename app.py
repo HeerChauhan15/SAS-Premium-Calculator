@@ -13,7 +13,7 @@ def format_inr(x):
     return f"₹{x:,.2f}"
 
 
-st.title("GTL Premium Calculator")
+st.title("SAS Premium Calculator")
 
 # INPUTS
 sum_assured = st.number_input("Sum Assured", min_value=0.0, step=1000.0)
